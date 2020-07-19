@@ -1,0 +1,222 @@
+
+button {
+    border-radius: 2px;
+    padding: 5px 25px;
+    /* 10 30 */
+}
+
+button:hover {
+    outline: .5px solid rgb(47, 47, 244);
+}
+
+
+.button-primary-none {
+    background-color:#33A0FF;
+    color: white;
+    border: none;
+}
+
+
+.button-primary-hover {
+    background-color:#33A0FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-primary-hover:hover {
+    border: .5px solid rgb(47, 47, 244);
+    background-color: #2E90E5;
+    
+}
+
+.button-primary-nobgcolor {
+    background-color: white;
+    color: #33A0FF;
+    border: 1px solid #33A0FF;
+}
+
+.button-primary-light {
+    background-color: #EAF5FF;
+    color: #33A0FF;
+    border: none;
+}
+
+/* style danger buttons */
+
+.button-danger-none {
+    background-color: #FF4858;
+    color: white;
+    border: none;
+}
+
+
+.button-danger-hover {
+    background-color:  #FF4858;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-danger-hover:hover {
+    background-color: #f92a3b;    
+}
+
+.button-danger-nobgcolor {
+    background-color: white;
+    color: #FF4858;
+    border: 1px solid #FF4858;
+}
+
+.button-danger-light {
+    background-color: #FFECEE;
+    color: #FF4858;
+    border: none;
+}
+
+/* style success */
+
+.button-success-none {
+    background-color:#0AD00A;
+    color: white;
+    border: none;
+}
+
+.button-success-hover {
+    background-color: #0AD00A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-success-hover:hover {
+    background-color: #07C107;  
+}
+
+.button-success-nobgcolor {
+    background-color: white;
+    color: #0AD00A;
+    border: 1px solid  #0AD00A;
+}
+
+.button-success-light {
+    background-color: #E6FAE6;
+    color:#0AD00A;
+    border: none;
+}
+
+/* style warning */
+
+.button-warning-none {
+    background-color: #FFC600;
+    color: white;
+    border: none;
+}
+
+.button-warning-hover {
+    background-color:#FFC600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-warning-hover:hover {
+    background-color:  #EBB600;
+}
+
+.button-warning-nobgcolor {
+    background-color: white;
+    color:#FFC600;
+    border: 1px solid #FFC600;
+}
+
+.button-warning-light {
+    background-color: #FFF9E5;
+    color: #FFC600;
+    border: none;
+}
+
+
+/* style default */
+
+.button-warning-none {
+    background-color:#22262A;
+    color: white;
+    border: none;
+}
+
+.button-warning-hover {
+    background-color: #22262A;;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-warning-hover:hover {
+    background-color:;
+}
+
+.button-warning-nobgcolor {
+    background-color: white;
+    color:#FFC600;
+    border: 1px solid #22262A;;
+}
+
+.button-warning-light {
+    background-color: #FFF9E5;
+    color: #22262A;;
+    border: none;
+}
+
+.button-large {
+    padding: 10px 50px;
+    /*15 40*/
+}
+
+/*
+.button-primary:hover {
+    background-color: #023163;
+    padding: 5px 25px;
+} 
+
+.button-primary-outline {
+    background-color: #7abaff;
+}
+
+
+.button-outline {
+    opacity: 0.8;
+}
+
+
+.button-success {
+    background-color: #0069D9;
+    color: white;
+    border: #0069D9;
+}
+
+.button-danger {
+    background-color: #d90000;
+    color: white;
+    border: #0069D9;
+}
+
+.button-warning {
+    background-color: #d5d900;
+    color: white;
+    border: #0069D9;
+}
+.button-small {
+    padding: 2.5px 15px;
+}
+
+.button-med {
+    padding: 5px 25px;
+}
+
+.button-large {
+    padding: 10px 50px;
+}
+
+*/
+
