@@ -2,6 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Input from './Input';
 import Select from './Select';
+import Checkbox from './Checkbox';
 import Counter from './Counter'
 
 
@@ -18,6 +19,7 @@ storiesOf('Form', module)
     .add('Select Medium Fill', () => <Select type="select" name="colors" content={colors} size="medium" fill/>) 
     .add('Select Small Fill', () => <Select type="select" name="colors" content={colors} size="small" fill/>) 
     .add('Counter', () => <Counter min="1" max="100" setp="1" value="1"/>)
+    .add("Checkbox", () => <Checkbox type="checkbox" name="choice" />)
 
 
   

@@ -14,7 +14,7 @@ class Counter extends Component {
 
         <div className="counter">
             <div><img src={require("./minus.png")} onClick={this.decreaseCount}/></div>
-            <div><input type="number" value={this.state.count}/></div>
+            <div><input type="number" value={this.state.count} readOnly/></div>
             <div><img src={require("./plus.png")} onClick={this.increaseCount}/></div>
         </div>
     

@@ -45,3 +45,13 @@ input {
     display: flex;
     flex-direction: row;
 }
+
+.checkboxContainer {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
