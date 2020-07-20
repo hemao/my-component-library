@@ -1,0 +1,47 @@
+input {
+    display: block;
+}
+
+.small {
+    width: 180px;
+    height: 15px;
+}
+
+.medium {
+    width: 180px;
+    height:20px;
+}
+
+.large {
+    width: 180px;
+    height:25px;
+}
+
+.select-fill {
+    background-color: #FAFAFB;
+    border: none;
+}
+
+.select-outline {
+    outline: .5px soild #FAFAFB;
+}
+
+.select-small {
+    width: 120px;
+    height: 35px;
+}
+
+.select-medium {
+    width: 180px;
+    height:40px;
+}
+
+.select-large {
+    width: 180px;
+    height:45px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+}

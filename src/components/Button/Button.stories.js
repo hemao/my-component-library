@@ -12,7 +12,10 @@ storiesOf('Button', module)
     .add('Primary Nobgcolor Large', () => <Button type="primary-nobgcolor" large label="Do Something" />) 
     .add('Primary light Large', () => <Button type="primary-light" large label="Do Something" />) 
 //Icon    
-    .add('Primary Icon', () => <Button type="primary-light" Icon="cart" label=" Add To Cart" />)       
+    .add('Icon Cart', () => <Button type="primary-light" Icon="cart" label="Add To Cart" />)  
+    .add('Icon Heart', () => <Button type="primary-light" Icon="heart" label="Add To Favorites" />)  
+    .add('Icon Heart w/o Label', () => <Button type="small-light" Icon="heart" label="" />)   
+    .add('Icon Cart w/o Label', () => <Button type="small-light" Icon="cart" label="" />)                   
 
 //  Danger buttons  
     .add('Danger', () => <Button type="danger-none"  label="Do something" />) 

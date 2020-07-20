@@ -4,14 +4,15 @@ import Icon from "../Icon/Icon"
 
 // This is a functional component - just sent up a little differently as an arrow function!
 const Button = (props) => {
-       
+        
         let classList = [];
 
         let types = ['primary', 'primary-none', 'primary-hover', 'primary-nobgcolor','primary-light',
         'danger', 'danger-none','danger-hover', 'danger-nobgcolor','danger-light',
         'success', 'success-none', 'success-hover', 'success-nobgcolor', 'success-light',
         'warning', 'warning-none', 'warning-hover', 'warning-nobgcolor', 'warning-light',
-        'default', 'default-none', 'default-hover', 'default-nobgcolor', 'default-light'];
+        'default', 'default-none', 'default-hover', 'default-nobgcolor', 'default-light',
+        'small-light'];
 
         if (types.includes(props.type)) {
             classList.push(` button-${props.type}`)
